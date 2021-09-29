@@ -1,5 +1,4 @@
-// your grade is 3/5
-//@ there is no import for scanner ????
+// your grade is 4/5
 // Nawaf alhrbi
 // 442002491
 
