@@ -13,7 +13,7 @@ public class Main
 		float num1;
 		
 		float num2;
-		system.out.println("Enter a num");
+		System.out.println("Enter a num");
 		num1 =my0bj.nextFloat();
 		//@check the error;
 		System.out.println("Enter a num");
