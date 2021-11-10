@@ -1,0 +1,32 @@
+mport java.util.Random;
+import java.util.Scanner;
+
+public class Assignment1 {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        
+        String computerPlays = "rps";
+        Random rnd = new Random();
+        do{
+            System.out.println("If you want to play enter:\n(r or R) for rock,\n(p or P) for paper,\n(s or S) for scissors\nor Enter any key to exit");
+            String NN = scan.nextLine(); NN =(NN.toLowerCase()); char NX = NN.charAt(0);
+            
+            if(NX!= 's' && NX != 'r'&& NX!='p'){
+                break;
+            }
+            
+            char computerChoice = computerPlays.charAt(rnd.nextInt(computerPlays.length()));
+            
+            if (NX == computerChoice){
+            System.out.println("is tie: user choice:  " +NX+ " computerChoice:" +computerChoice);
+            }
+           else if((NAWAF=='s'&& computerChoice=='p')||(NAWAF=='p'&&computerChoice=='r')||(NAWAF=='r'&&computerChoice=='s')){
+                System.out.println("user wins: computerChoice:"+computerChoice+"xyz choice:"+xyz);
+            }
+            
+            else{
+                System.out.println("computer wins computerChoice:"+computerChoice+"xyz choice:"+NAWAF);
+            }
+            
+            System.out.println("\n\n");
+        }while(true);
